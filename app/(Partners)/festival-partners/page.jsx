@@ -11,7 +11,7 @@ import toronto from "../../../assets/images/toronto.jpg";
 import BannerBilbaoWebFest1 from "../../../assets/images/Banner_Bilbao_Web_Fest_1.jpg";
 import latino from "../../../assets/images/latino.jpg";
 import sicily from "../../../assets/images/sicily.jpg";
-import bawebfest from "../../../assets/images/bawebfest.jpg";
+import bawfest from "../../../assets/images/bawfest.jpg";
 
 import Image from "next/image";
 
@@ -28,7 +28,7 @@ const page = () => {
     BannerBilbaoWebFest1,
     latino,
     sicily,
-    bawebfest,
+    bawfest,
   ];
   return (
     <div className="flex flex-col w-full gap-y-4 min-h-[70vh]">
@@ -41,10 +41,10 @@ const page = () => {
       </p>
 
       <div className="mt-4 w-full flex flex-col gap-y-4">
-        {imageList.map((img, indx) => (
+        {imageList.map((imge, indx) => (
           <Image
             key={indx}
-            src={img}
+            src={imge}
             alt="partner"
             className="max-w-[95%] self-center"
           />
