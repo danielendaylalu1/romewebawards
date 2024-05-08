@@ -69,19 +69,19 @@ export default function RootLayout({ children }) {
                 <p className="text-white  text-xs">Partners</p>
                 <ul className="nav-item-list flex flex-col bg-slate-950/70 absolute bottom-[-96px] left-0 min-w-[170px]">
                   <Link
-                    href="/news"
+                    href="/festival-partners"
                     className="text-white text-xs p-2  rounded-tr-md hover:bg-slate-950/40"
                   >
                     Festival Partners
                   </Link>
                   <Link
-                    href="/news"
+                    href="/media-partners"
                     className="text-white text-xs p-2  rounded-tr-md hover:bg-slate-950/40"
                   >
                     Media Partners
                   </Link>
                   <Link
-                    href="/news"
+                    href="/partnership-agreement"
                     className="text-white text-xs p-2  rounded-tr-md hover:bg-slate-950/40"
                   >
                     Accordo di Partnership
@@ -90,28 +90,22 @@ export default function RootLayout({ children }) {
               </div>
 
               <Link
-                href="/"
+                href="/regulation"
                 className="text-white text-xs p-2  rounded-tr-md hover:bg-slate-950/40"
               >
                 Regolamento
               </Link>
               <div className="nav-item p-2 rounded-tr-md hover:bg-slate-950/40 relative">
                 <p className="text-white  text-xs">Iscrizione</p>
-                <ul className="nav-item-list flex flex-col bg-slate-950/70 absolute bottom-[-96px] left-0 min-w-[170px]">
+                <ul className="nav-item-list flex flex-col bg-slate-950/70 absolute bottom-[-64px] left-0 min-w-[170px]">
                   <Link
-                    href="/news"
+                    href="/registration-process"
                     className="text-white text-xs p-2  rounded-tr-md hover:bg-slate-950/40"
                   >
                     Processo di Iscrizione
                   </Link>
                   <Link
-                    href="/news"
-                    className="text-white text-xs p-2  rounded-tr-md hover:bg-slate-950/40"
-                  >
-                    Modulo di iscrizione
-                  </Link>
-                  <Link
-                    href="/news"
+                    href="/iwv-association-statute"
                     className="text-white text-xs p-2  rounded-tr-md hover:bg-slate-950/40"
                   >
                     Statuto Associazione IWV
@@ -120,7 +114,7 @@ export default function RootLayout({ children }) {
               </div>
             </ul>
           </nav>
-          <div className="w-full ml-2  min-w-[780px] max-w-[970px] self-center bg-[#9f9688] px-2 py-8 flex gap-x-16">
+          <div className="w-full ml-2 min-w-[780px] max-w-[970px] self-center bg-[#9f9688] px-2 py-8 flex gap-x-16">
             <div className="flex flex-col gap-y-4">
               <SideBarCard
                 title="Contatti"
