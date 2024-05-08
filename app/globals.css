@@ -13,10 +13,19 @@ body {
   background: url("../assets/images/page-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
+
   /* background-size: cover; */
 }
 .HEADER {
   background: url("../assets/images/header-bg.png");
   background-repeat: no-repeat;
   background-position: center;
+}
+.nav-item-list {
+  display: none;
+  z-index: 10;
+}
+
+.nav-item:hover .nav-item-list {
+  display: flex;
 }
