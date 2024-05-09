@@ -7,7 +7,11 @@ const SideBarCard = ({ title, children, bottomLink }) => {
       <h2 className="font-bold text-sm ml-2">{title}</h2>
       <div className="bg-[#7a7c7a] flex flex-col gap-y-4 items-center p-4">
         {children}
-        <Link href={bottomLink.link} className="text-xs text-[#f2d886]">
+        <Link
+          href={`mailto:${bottomLink.link}`}
+          target="_blank"
+          className="text-xs text-[#f2d886]"
+        >
           {bottomLink.content}
         </Link>
       </div>

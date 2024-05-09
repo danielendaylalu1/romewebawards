@@ -13,6 +13,7 @@ body {
   background: url("../assets/images/page-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  /* background-size: cover; */
 
   /* background-size: cover; */
 }
@@ -20,6 +21,7 @@ body {
   background: url("../assets/images/header-bg.png");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 .nav-item-list {
   display: none;
@@ -28,4 +30,37 @@ body {
 
 .nav-item:hover .nav-item-list {
   display: flex;
+}
+
+@media only screen and (max-width: 1024px) {
+  .CONTAINER {
+    overflow-x: hidden;
+  }
+  .HEADER {
+    max-width: 100% !important;
+    min-width: 100% !important;
+  }
+  .NAV {
+    min-width: 100% !important;
+    max-width: 100% !important;
+  }
+  .MAIN {
+    min-width: 100% !important;
+    margin-left: 0 !important;
+    gap: 1rem;
+  }
+  .FOOTER {
+    min-width: 100% !important;
+    margin-left: 0 !important;
+  }
+}
+@media only screen and (max-width: 864px) {
+  .MAIN {
+    flex-direction: column;
+    align-self: flex-start;
+    padding: 0 1rem;
+  }
+  img {
+    max-width: 90%;
+  }
 }

@@ -32,7 +32,11 @@ const page = () => {
 
       <p>
         Vuoi contattarci? Spediscici una mail a{" "}
-        <a href="mailto:info@romewebawards.it" className="text-[#f4c15b]">
+        <a
+          href="mailto:info@romewebawards.it"
+          target="_blank"
+          className="text-[#f4c15b]"
+        >
           info@romewebawards.it
         </a>
       </p>

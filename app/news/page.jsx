@@ -136,7 +136,7 @@ export default function News() {
           <span className="text-red-800 font-bold text-xl">
             Iscriviti ora:{" "}
           </span>
-          <Link href="/registration">romewebawards.it/Iscrizione</Link>
+          <Link href="/registration-process">romewebawards.it/Iscrizione</Link>
         </p>
 
         <Link
