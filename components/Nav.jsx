@@ -30,6 +30,7 @@ const Nav = () => {
         <Link
           href="/"
           className="text-white text-xs p-2 rounded-tr-md hover:bg-slate-950/40"
+          onClick={() => setNavShow(false)}
         >
           Homepage
         </Link>
@@ -39,18 +40,21 @@ const Nav = () => {
             <Link
               href="/who-we-are"
               className="text-white text-xs p-2  rounded-tr-md hover:bg-slate-950/40"
+              onClick={() => setNavShow(false)}
             >
               Chi siamo
             </Link>
             <Link
               href="/what-is-rwa"
               className="text-white text-xs p-2  rounded-tr-md hover:bg-slate-950/40"
+              onClick={() => setNavShow(false)}
             >
               {`Cos'è il RWA`}
             </Link>
             <Link
               href="/iwv"
               className="text-white text-xs p-2  rounded-tr-md hover:bg-slate-950/40"
+              onClick={() => setNavShow(false)}
             >
               Associazione IWV
             </Link>
@@ -62,18 +66,21 @@ const Nav = () => {
             <Link
               href="/festival-partners"
               className="text-white text-xs p-2  rounded-tr-md hover:bg-slate-950/40"
+              onClick={() => setNavShow(false)}
             >
               Festival Partners
             </Link>
             <Link
               href="/media-partners"
               className="text-white text-xs p-2  rounded-tr-md hover:bg-slate-950/40"
+              onClick={() => setNavShow(false)}
             >
               Media Partners
             </Link>
             <Link
               href="/partnership-agreement"
               className="text-white text-xs p-2  rounded-tr-md hover:bg-slate-950/40"
+              onClick={() => setNavShow(false)}
             >
               Accordo di Partnership
             </Link>
@@ -83,6 +90,7 @@ const Nav = () => {
         <Link
           href="/regulation"
           className="text-white text-xs p-2  rounded-tr-md hover:bg-slate-950/40"
+          onClick={() => setNavShow(false)}
         >
           Regolamento
         </Link>
@@ -92,12 +100,14 @@ const Nav = () => {
             <Link
               href="/registration-process"
               className="text-white text-xs p-2  rounded-tr-md hover:bg-slate-950/40"
+              onClick={() => setNavShow(false)}
             >
               Processo di Iscrizione
             </Link>
             <Link
               href="/iwv-association-statute"
               className="text-white text-xs p-2  rounded-tr-md hover:bg-slate-950/40"
+              onClick={() => setNavShow(false)}
             >
               Statuto Associazione IWV
             </Link>
