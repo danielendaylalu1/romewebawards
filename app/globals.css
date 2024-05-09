@@ -31,6 +31,9 @@ body {
 .nav-item:hover .nav-item-list {
   display: flex;
 }
+.MENUICON {
+  display: none;
+}
 
 @media only screen and (max-width: 1024px) {
   .CONTAINER {
@@ -62,5 +65,36 @@ body {
   }
   img {
     max-width: 90%;
+  }
+}
+
+@media only screen and (max-width: 668px) {
+  .MENUICON {
+    display: block;
+  }
+  .NAVITEM {
+    padding: 2rem;
+    position: absolute;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #303030;
+    width: 100%;
+    top: 38px;
+    left: -100%;
+    align-items: flex-start;
+    transition: all 0.5s ease-in-out;
+  }
+  .NAVITEMSHOW {
+    left: 0;
+  }
+  .nav-item-list:hover {
+    background-color: transparent;
+  }
+  .nav-item-list {
+    background-color: #303030;
+    position: relative;
+    top: 0;
+    display: flex;
+    margin-top: 1rem;
   }
 }
