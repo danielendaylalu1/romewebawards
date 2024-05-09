@@ -58,7 +58,7 @@ body {
   .MAIN {
     flex-direction: column;
     align-self: flex-start;
-    padding: 0 1rem;
+    padding: 1rem;
   }
   img {
     max-width: 90%;
