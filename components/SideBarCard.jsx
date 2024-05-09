@@ -8,7 +8,7 @@ const SideBarCard = ({ title, children, bottomLink }) => {
       <div className="bg-[#7a7c7a] flex flex-col gap-y-4 items-center p-4">
         {children}
         <Link
-          href={`mailto:${bottomLink.link}`}
+          href={bottomLink.link}
           target="_blank"
           className="text-xs text-[#f2d886]"
         >

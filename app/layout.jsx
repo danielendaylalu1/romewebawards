@@ -35,13 +35,6 @@ export default function RootLayout({ children }) {
               >
                 Homepage
               </Link>
-              <Link
-                href="/news"
-                className="text-white text-xs p-2  rounded-tr-md hover:bg-slate-950/40"
-              >
-                Notizie
-              </Link>
-
               <div className="nav-item p-2 rounded-tr-md hover:bg-slate-950/40 relative">
                 <p className="text-white  text-xs">RWA</p>
                 <ul className="nav-item-list flex flex-col bg-slate-950/70 absolute bottom-[-96px] left-0 min-w-[120px]">
@@ -120,7 +113,7 @@ export default function RootLayout({ children }) {
                 title="Contatti"
                 bottomLink={{
                   content: "info@romewebawards.it",
-                  link: "info@romewebawards.it",
+                  link: "mailto:info@romewebawards.it",
                 }}
               >
                 <div className="flex justify-center gap-x-4 w-full">
@@ -131,7 +124,7 @@ export default function RootLayout({ children }) {
               </SideBarCard>
               <SideBarCard
                 title="Privacy"
-                bottomLink={{ content: "Privacy", link: "/" }}
+                bottomLink={{ content: "Privacy", link: "/privacy" }}
               ></SideBarCard>
             </div>
             {children}
