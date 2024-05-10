@@ -62,14 +62,7 @@ const Nav = () => {
         </div>
         <div className="nav-item p-2 rounded-tr-md hover:bg-slate-950/40 relative">
           <p className="text-white  text-xs">Partners</p>
-          <ul className="nav-item-list flex flex-col bg-slate-950/70 absolute bottom-[-96px] left-0 min-w-[170px]">
-            <Link
-              href="/festival-partners"
-              className="text-white text-xs p-2  rounded-tr-md hover:bg-slate-950/40"
-              onClick={() => setNavShow(false)}
-            >
-              Festival Partners
-            </Link>
+          <ul className="nav-item-list flex flex-col bg-slate-950/70 absolute bottom-[-64px] left-0 min-w-[170px]">
             <Link
               href="/media-partners"
               className="text-white text-xs p-2  rounded-tr-md hover:bg-slate-950/40"
@@ -96,13 +89,20 @@ const Nav = () => {
         </Link>
         <div className="nav-item p-2 rounded-tr-md hover:bg-slate-950/40 relative">
           <p className="text-white  text-xs">Iscrizione</p>
-          <ul className="nav-item-list flex flex-col bg-slate-950/70 absolute bottom-[-64px] left-0 min-w-[170px]">
+          <ul className="nav-item-list flex flex-col bg-slate-950/70 absolute bottom-[-96px] left-0 min-w-[170px]">
             <Link
               href="/registration-process"
               className="text-white text-xs p-2  rounded-tr-md hover:bg-slate-950/40"
               onClick={() => setNavShow(false)}
             >
               Processo di Iscrizione
+            </Link>
+            <Link
+              href="/registration-form"
+              className="text-white text-xs p-2  rounded-tr-md hover:bg-slate-950/40"
+              onClick={() => setNavShow(false)}
+            >
+              Modulo di Iscrizione
             </Link>
             <Link
               href="/iwv-association-statute"

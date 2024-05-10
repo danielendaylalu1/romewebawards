@@ -13,6 +13,7 @@ import SideBarCard from "@/components/SideBarCard";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import DonateForm from "@/components/DonateForm";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -45,9 +46,48 @@ export default function RootLayout({ children }) {
                 </div>
               </SideBarCard>
               <SideBarCard
+                title="Donate!"
+                bottomLink={{ content: "", link: "/" }}
+              >
+                <DonateForm />
+              </SideBarCard>
+              <SideBarCard
                 title="Privacy"
                 bottomLink={{ content: "Privacy", link: "/privacy" }}
               ></SideBarCard>
+              <SideBarCard
+                title="Administration"
+                bottomLink={{ content: "", link: "/" }}
+              >
+                <div className="flex flex-col gap-y-6 self-start">
+                  <div className="flex flex-col gap-y-1">
+                    <p className="text-white/65 text-xs font-light">
+                      Nome utente
+                    </p>
+                    <input
+                      type="text"
+                      className="py-[1px] px-2 outline-none text-sm max-w-[180px]"
+                    />
+                  </div>
+                  <div className="flex flex-col gap-y-1">
+                    <p className="text-white/65 text-xs font-light">Password</p>
+                    <input
+                      type="text"
+                      className="py-[1px] px-2 outline-none text-sm max-w-[180px]"
+                    />
+                  </div>
+                  <div className="flex gap-x-2">
+                    {" "}
+                    <p className="text-white/65 text-xs font-light">
+                      Ricordami
+                    </p>
+                    <input type="checkbox" />
+                  </div>
+                  <button className="shadow-black shadow-md text-sm border-none bg-yellow-400 py-[6px] px-3 rounded-md font-normal self-start">
+                    Accedi
+                  </button>
+                </div>
+              </SideBarCard>
             </div>
             {children}
           </div>
