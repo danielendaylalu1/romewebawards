@@ -12,6 +12,7 @@ import BannerBilbaoWebFest1 from "../../../assets/images/Banner_Bilbao_Web_Fest_
 import latino from "../../../assets/images/latino.jpg";
 import sicily from "../../../assets/images/sicily.jpg";
 import bawfest from "../../../assets/images/bawfest.jpg";
+import esff from "../../../assets/images/esff.png";
 
 import Image from "next/image";
 
@@ -29,6 +30,7 @@ const page = () => {
     latino,
     sicily,
     bawfest,
+    esff,
   ];
   return (
     <div className="flex flex-col w-full gap-y-4 min-h-[70vh]">
