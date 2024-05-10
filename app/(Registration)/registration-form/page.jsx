@@ -53,14 +53,14 @@ const page = () => {
           <p className="text-sm font-light">Member Name / Nome Socio</p>
           <input
             type="text"
-            className="py-[1px] max-h-[30px] px-2 outline-none text-sm max-w-[180px]"
+            className="py-[1px] max-h-[30px] px-2 outline-none text-sm max-w-[240px]"
           />
         </div>
         <div className="flex gap-x-2 w-[70%] min-w-[320px] justify-between">
           <p className="text-sm font-light">Member Surname / Cognome Socio</p>
           <input
             type="text"
-            className="py-[1px] max-h-[30px] px-2 outline-none text-sm max-w-[180px]"
+            className="py-[1px] max-h-[30px] px-2 outline-none text-sm max-w-[240px]"
           />
         </div>
         <div className="flex gap-x-2 w-[70%] min-w-[320px] justify-between">
@@ -69,7 +69,7 @@ const page = () => {
           </p>
           <input
             type="date"
-            className="py-[1px] max-h-[30px] px-2 outline-none text-sm max-w-[180px]"
+            className="py-[1px] max-h-[30px] px-2 outline-none text-sm max-w-[240px]"
           />
         </div>
         <div className="flex gap-x-2 w-[70%] min-w-[320px] justify-between">
@@ -77,7 +77,7 @@ const page = () => {
           <input
             type="email
             "
-            className="py-[1px] max-h-[30px] px-2 outline-none text-sm max-w-[180px]"
+            className="py-[1px] max-h-[30px] px-2 outline-none text-sm max-w-[240px]"
           />
         </div>
         <div className="flex gap-x-2 w-[70%] min-w-[320px] justify-between">
@@ -86,7 +86,7 @@ const page = () => {
           </p>
           <input
             type="text"
-            className="py-[1px] max-h-[30px] px-2 outline-none text-sm max-w-[180px]"
+            className="py-[1px] max-h-[30px] px-2 outline-none text-sm max-w-[240px]"
           />
         </div>
         <div className="flex gap-x-2 w-[70%] min-w-[320px] justify-between">
@@ -95,7 +95,7 @@ const page = () => {
           </p>
           <input
             type="text"
-            className="py-[1px] max-h-[30px] px-2 outline-none text-sm max-w-[180px]"
+            className="py-[1px] max-h-[30px] px-2 outline-none text-sm max-w-[240px]"
           />
         </div>
         <div className="flex gap-x-2 w-[70%] min-w-[320px] justify-between">
@@ -104,7 +104,7 @@ const page = () => {
           </p>
           <input
             type="text"
-            className="py-[1px] max-h-[30px] px-2 outline-none text-sm max-w-[180px]"
+            className="py-[1px] max-h-[30px] px-2 outline-none text-sm max-w-[240px]"
           />
         </div>
         <div className="flex gap-x-2 w-[70%] min-w-[320px] justify-between">
@@ -113,7 +113,7 @@ const page = () => {
           </p>
           <input
             type="text"
-            className="py-[1px] max-h-[30px] px-2 outline-none text-sm max-w-[180px]"
+            className="py-[1px] max-h-[30px] px-2 outline-none text-sm max-w-[240px]"
           />
         </div>
         <div className="flex gap-x-2 w-[70%] min-w-[320px] justify-between">
@@ -197,7 +197,7 @@ const page = () => {
           <p className="text-sm font-light">Season / Stagione</p>
           <input
             type="text"
-            className="py-[1px] max-h-[30px] px-2 outline-none text-sm max-w-[180px]"
+            className="py-[1px] max-h-[30px] px-2 outline-none text-sm max-w-[240px]"
           />
         </div>
         <div className="flex gap-x-2 w-[70%] min-w-[320px] justify-between">
@@ -206,7 +206,7 @@ const page = () => {
             type="text"
             // rows={"50px"}
             // cols={"90"}
-            className="py-[2px] px-2 min-h-[90px] outline-none text-sm max-w-[180px]"
+            className="py-[2px] px-2 min-h-[90px] outline-none text-sm max-w-[240px]"
           />
         </div>
         <div className="flex gap-x-2 w-[70%] min-w-[320px] justify-between">
@@ -214,7 +214,7 @@ const page = () => {
           <input
             type="text"
             placeholder="http:\\"
-            className="py-[1px] max-h-[30px] px-2 outline-none text-sm max-w-[180px]"
+            className="py-[1px] max-h-[30px] px-2 outline-none text-sm max-w-[240px]"
           />
         </div>
 
@@ -226,7 +226,7 @@ const page = () => {
             type="text"
             placeholder="http:\\...
             http:\\..."
-            className="py-[2px] px-2 min-h-[90px] outline-none text-sm max-w-[180px]"
+            className="py-[2px] px-2 min-h-[90px] outline-none text-sm max-w-[240px]"
           />
         </div>
 
@@ -235,7 +235,7 @@ const page = () => {
           <input
             type="text"
             placeholder="http:\\"
-            className="py-[1px] max-h-[30px] px-2 outline-none text-sm max-w-[180px]"
+            className="py-[1px] max-h-[30px] px-2 outline-none text-sm max-w-[240px]"
           />
         </div>
 
@@ -246,7 +246,7 @@ const page = () => {
           <input
             type="text"
             placeholder="http:\\"
-            className="py-[1px] max-h-[30px] px-2 outline-none text-sm max-w-[180px]"
+            className="py-[1px] max-h-[30px] px-2 outline-none text-sm max-w-[240px]"
           />
         </div>
 
@@ -256,7 +256,7 @@ const page = () => {
             type="text"
             placeholder="Actor name surname - Character Name
             i.e.: Sylvester Stallone - John Rambo"
-            className="py-[2px] px-2 min-h-[90px] outline-none text-sm max-w-[180px]"
+            className="py-[2px] px-2 min-h-[90px] outline-none text-sm max-w-[240px]"
           />
         </div>
 
@@ -268,7 +268,7 @@ const page = () => {
             type="text"
             placeholder="Actor name surname - Character Name
             i.e.: Sigourney Weaver - Ellen Ripley"
-            className="py-[2px] px-2 min-h-[90px] outline-none text-sm max-w-[180px]"
+            className="py-[2px] px-2 min-h-[90px] outline-none text-sm max-w-[240px]"
           />
         </div>
 
@@ -281,7 +281,7 @@ const page = () => {
             placeholder="Song 1 - Ep. 1 - 05:23
             Song 2 - Ep. 3 - 03:10
             etc..."
-            className="py-[2px] px-2 min-h-[90px] outline-none text-sm max-w-[180px]"
+            className="py-[2px] px-2 min-h-[90px] outline-none text-sm max-w-[240px]"
           />
         </div>
         <div className="flex gap-x-2 w-[70%] min-w-[320px] justify-between">
@@ -325,7 +325,7 @@ const page = () => {
           <p className="text-sm font-light">Notes / Note</p>
           <textarea
             type="text"
-            className="py-[2px] px-2 min-h-[90px] outline-none text-sm max-w-[180px]"
+            className="py-[2px] px-2 min-h-[90px] outline-none text-sm max-w-[240px]"
           />
         </div>
         <button className="shadow-black shadow-md text-sm border-none bg-yellow-400 py-[6px] px-3 rounded-md font-normal self-start">
